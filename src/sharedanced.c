@@ -99,7 +99,7 @@ static void clearargs(int argc, char **argv)
 #endif
 }
 
-static void set_progname(const char * const title)
+void set_progname(const char * const title)
 {
 #ifndef NO_PROCNAME_CHANGE
 # ifdef HAVE_SETPROCTITLE
